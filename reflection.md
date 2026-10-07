@@ -7,6 +7,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  - The new game button is broken. Because the text box isn't cleared, nor is the score resest. I do not think it takes any input and might be a dummy button that isn't connected to any logic. I suspect the issue with new game must be in app.py 
+  - The hints are infact backwards. In app.py we see that the conditions are correct but the labels are flipped.
 
 **Bug Reproduction Log**
 
